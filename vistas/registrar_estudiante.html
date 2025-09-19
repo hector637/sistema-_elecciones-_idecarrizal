@@ -1,102 +1,103 @@
 <!DOCTYPE html>
 <html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Registro de Estudiantes</title>
+    <link rel="stylesheet" href="/estilos/estilos_resgistro.css">
 </head>
-      <meta charset="UTF-8">
-      </title>registro de estudiante</title>
-      <link rel="stylesheet" href="../estilos/estilos_registro.css">
-    </head>
-    </body>
+<body>
 
     <div class="contenedor">
 
         <header class="encabezado-principal"></header>
-        <script src="../js/header.js"></script>
+        <script src="../js/header.js"></script> <!-- si lo guardas en un archivo JS -->
 
 
-        </h2>registro de estudiante</h2>
+        <h2>Registro de estudiantes</h2>
 
         <form action="procesar_registro.php" method="POST">
             <div class="form-grid">
-                <div class="form group">
-                    <label for="nombre">nombre completo</label>
+                <div class="form-group">
+                    <label for="nombre">Nombre completo</label>
                     <input type="text" id="nombre" name="nombre" required>
                 </div>
 
                 <div class="form-group">
                     <label for="tipo_documento">Tipo de documento</label>
                     <select id="tipo_documento" name="tipo_documento" required>
-                        <option value="">seleccione...</option>
-                        <option value="TI">tarjeta de identidad</option>
-                        <option value="CC">cedula de ciudadania</option>
-                        <option value="CE">cedula de extranjeria</option>
+                        <option value="">Seleccione...</option>
+                        <option value="TI">Tarjeta de Identidad</option>
+                        <option value="CC">Cédula de Ciudadanía</option>
+                        <option value="CE">Cédula de Extranjería</option>
                     </select>
                 </div>
 
-         </div class="form-group">
-            <label for="documento"> Número de documento</label>
-            <input type="text" id="documento" name="documento" required>
-        </div>
+                <div class="form-group">
+                    <label for="documento">Número de documento</label>
+                    <input type="text" id="documento" name="documento" required>
+                </div>
 
-        <div class="form-group">
-            <label for="fecha_nacimiento"> fecha_nacimiento</label>
-            <input type="date" id="fecha_nacimiento" name="fecha_nacimiento" required>
-        </div>
+                <div class="form-group">
+                    <label for="fecha_nacimiento">Fecha de nacimiento</label>
+                    <input type="date" id="fecha_nacimiento" name="fecha_nacimiento" required>
+                </div>
 
-        <div class="form-group">
-            <label for="genero">Género</label>
-            <select id="genero" name="genero" required>
-                <option value="">seleccione...</option>
-                <option value="M">Masculino></option>
-                <option value="F">Femenino</option>
-                <option value="O">Otro</option>
-        </div>
+                <div class="form-group">
+                    <label for="genero">Género</label>
+                    <select id="genero" name="genero" required>
+                        <option value="">Seleccione...</option>
+                        <option value="M">Masculino</option>
+                        <option value="F">Femenino</option>
+                        <option value="O">Otro</option>
+                    </select>
+                </div>
 
+                <div class="form-group">
+                    <label for="jornada">Jornada</label>
+                    <select id="jornada" name="jornada" required>
+                        <option value="">Seleccione...</option>
+                        <option value="mañana">Mañana</option>
+                        <option value="tarde">Tarde</option>
+                    </select>
+                </div>
 
-        <div class="form-group">
-            <label for="jornada">jornada</label>
-            <label id="jornada"name="jornada"required>
-                <option value="">seleccione...</option>
-                <option value="mañana">Mañana</option>
-                <option value="tarde">Tarde</option>
-            </select>
-        </div>
+                <div class="form-group">
+                    <label for="grado">Grado</label>
+                    <input type="text" id="grado" name="grado" required>
+                </div>
 
-        <div class="form-group">
-            <label for="grado">Grado</label>
-            <input type="text" id="grado" name="grado" required>
-        </div>
+                <div class="form-group">
+                    <label for="grupo">Grupo</label>
+                    <input type="text" id="grupo" name="grupo" required>
+                </div>
 
-        <div class="form-group">
-            <label for="grupo"> Grupo</label>
-            <input type="text" id="grupo" name="grupo" required>
-        </div>
+                <div class="form-group">
+                    <label for="telefono">Teléfono</label>
+                    <input type="tel" id="telefono" name="telefono" required>
+                </div>
 
-        <div class="form-group">
-            <label for="telefono">Teléfono</label>
-            <input type="tel" id="telefono" name="telefono" required>
-        </div>
+                <div class="form-group">
+                    <label for="correo">Correo institucional</label>
+                    <input type="email" id="correo" name="correo" required>
+                </div>
 
-        <div class="form-group">
-            <label for="correo">Correo institucional</label>
-            <input type="email" id="correo" name="correo" required>
-        </div>
+                <div class="form-group">
+                    <label for="password">Contraseña</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
 
-        <div class="form-group">
-            <label for="password"> Contraseña</label>
-            <input type="password" id="password" name="password" required>
-          </div>
-        </div>
+            </div>
+            <div style="text-align: center;">
+                    <button type="submit">Registrarse</button>
+                </div>
+                
+        </form>
 
-        <div style="text-align: center;" >
-            <button type="submit"> registrarse</button>
-        </div>
-     </from>
-
-     <footer>
-        </p>&copy; 2025 - IED TECNICA DE CARRIZAL.</p>
-     </footer>
+        <footer>
+            <p>&copy; 2025 - Colegio Ejemplo. Todos los derechos reservados.</p>
+        </footer>
 
     </div>
-    
+
 </body>
 </html>

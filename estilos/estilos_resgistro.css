@@ -31,7 +31,6 @@ nav a {
     display: block;
 }
 
-
 section.info {
     padding: 20px;
     text-align: left;
@@ -39,7 +38,7 @@ section.info {
     margin: auto;
     background-color: white;
     border-radius: 10px;
-    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
 
 form {
@@ -48,17 +47,19 @@ form {
     max-width: 400 px;
     margin: 30px auto;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-input, textarea, button {
+input,
+textarea,
+button {
     width: 90%;
     margin: 10px 0;
     padding: 10px;
     font-size: 16px;
 }
 
-button{
+button {
     background-color: #004080;
     color: white;
     border: none;
@@ -86,30 +87,29 @@ select {
     border: 1px solid #ccc;
 }
 
-.from-grid {
+.form-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
     text-align: left;
 }
 
-.from-grid {
+.form-group {
     display: flex;
     flex-direction: column;
 }
 
 @media (max-width: 90%) {
-    .from-grid{
+    .form-grid {
         grid-template-columns: 1fr;
     }
 }
 
-/* Estilos del formulario de resgistro */
-form{
+form {
     background-color: #ffffff;
     padding: 30px;
     border-radius: 10px;
-    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
     max-width: 100%;
     margin-top: 10px;
     margin: 50px;

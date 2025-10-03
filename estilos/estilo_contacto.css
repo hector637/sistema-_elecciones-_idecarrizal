@@ -1,22 +1,27 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f8f8f8;
+    background-color: #ffffff; /* blanco */
     margin: 0;
     padding: 0;
     text-align: center;
+    color: #003300; /* verde muy oscuro para el texto */
 }
 
 header {
-    background-color: #004080;
-    color: white;
+    background-color: #006400; /* verde oscuro */
+    color: #ffff00; /* amarillo */
     padding: 20px;
 }
 
 nav a {
     margin: 0 10px;
-    color: white;
+    color: white; /* enlaces blancos */
     text-decoration: none;
     font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffff00; /* amarillo al pasar el mouse */
 }
 
 section.info {
@@ -24,18 +29,19 @@ section.info {
     text-align: left;
     max-width: 700px;
     margin: auto;
-    background-color: white;
+    background-color: #ffffe0; /* amarillo claro */
     border-radius: 10px;
-    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    box-shadow: 0 0 5px rgba(0, 100, 0, 0.2); /* sombra verde */
+    color: #003300;
 }
 
 form {
-    background: white;
+    background: #ffffff; /* blanco */
     padding: 20px;
     max-width: 400px;
     margin: 30px auto;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    box-shadow: 0 0 10px rgba(0, 100, 0, 0.3); /* sombra verde */
 }
 
 input, textarea, button {
@@ -43,23 +49,29 @@ input, textarea, button {
     margin: 10px 0;
     padding: 10px;
     font-size: 16px;
+    border-radius: 5px;
+    border: 2px solid #006400; /* borde verde oscuro */
+    background-color: #ffffe0; /* amarillo claro */
+    color: #003300; /* texto verde oscuro */
 }
 
 button {
-    background-color: #004080;
-    color: white;
+    background-color: #006400; /* verde oscuro */
+    color: #ffff00; /* amarillo */
     border: none;
     cursor: pointer;
     border-radius: 5px;
+    font-weight: bold;
 }
 
 button:hover {
-    background-color: #00264d;
+    background-color: #004d00; /* verde más intenso */
+    color: #ffffff; /* blanco */
 }
 
 footer {
-    background-color: #004080;
-    color: white;
+    background-color: #006400; /* verde oscuro */
+    color: #ffff00; /* amarillo */
     padding: 10px;
     margin-top: 30px;
 }

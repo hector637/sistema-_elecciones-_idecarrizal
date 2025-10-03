@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
     // 1. Inyectar el CSS del header si no está ya agregado
-    const cssPath = "../estilos/header.css"; // ruta al CSS
+    const cssPath = "../estilos/header_seccion.css"; // ruta al CSS
     if (!document.querySelector(`link[href="${cssPath}"]`)) {
         const link = document.createElement("link");
         link.rel = "stylesheet";

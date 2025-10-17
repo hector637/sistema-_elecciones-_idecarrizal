@@ -1,47 +1,50 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #ffffff; /* blanco */
+    background-color: #f4f4f9;
     margin: 0;
     padding: 0;
-    text-align: center;
-    color: #003300; /* verde muy oscuro para el texto */
 }
 
 header {
-    background-color: #006400; /* verde oscuro */
-    color: #ffff00; /* amarillo */
+    background-color: #004080;
+    color: white;
     padding: 20px;
+    text-align: center;
+}
+
+nav {
+    margin-top: 10px;
 }
 
 nav a {
-    margin: 0 10px;
-    color: white; /* enlaces blancos */
+    color: white;
+    margin: 0 15px;
     text-decoration: none;
     font-weight: bold;
 }
 
 nav a:hover {
-    color: #ffff00; /* amarillo al pasar el mouse */
+    text-decoration: underline;
 }
 
-section.info {
+main {
     padding: 20px;
-    text-align: left;
-    max-width: 700px;
+    max-width: 800px;
     margin: auto;
-    background-color: #ffffe0; /* amarillo claro */
-    border-radius: 10px;
-    box-shadow: 0 0 5px rgba(0, 100, 0, 0.2); /* sombra verde */
-    color: #003300;
+}
+
+h1, h2 {
+    color: #34c4fd;
+    text-align: center;
 }
 
 form {
-    background: #ffffff; /* blanco */
+    background: rgb(255, 255, 255);
     padding: 20px;
     max-width: 400px;
     margin: 30px auto;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 100, 0, 0.3); /* sombra verde */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
 input, textarea, button {
@@ -49,29 +52,23 @@ input, textarea, button {
     margin: 10px 0;
     padding: 10px;
     font-size: 16px;
-    border-radius: 5px;
-    border: 2px solid #006400; /* borde verde oscuro */
-    background-color: #ffffe0; /* amarillo claro */
-    color: #003300; /* texto verde oscuro */
 }
 
 button {
-    background-color: #006400; /* verde oscuro */
-    color: #ffff00; /* amarillo */
+    background-color: #0e2bd1;
+    color: white;
     border: none;
     cursor: pointer;
     border-radius: 5px;
-    font-weight: bold;
 }
 
 button:hover {
-    background-color: #004d00; /* verde más intenso */
-    color: #ffffff; /* blanco */
+    background-color: #0b0463;
 }
 
 footer {
-    background-color: #006400; /* verde oscuro */
-    color: #ffff00; /* amarillo */
+    background-color: #004080;
+    color: rgb(255, 255, 255);
     padding: 10px;
     margin-top: 30px;
 }

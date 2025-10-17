@@ -3,8 +3,7 @@ html, body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background-color: #ffffff; /* blanco */
-    color: #003300; /* verde muy oscuro para texto */
+    background-color: #f8f8f8;
 }
 
 .wrapper {
@@ -18,8 +17,9 @@ html, body {
     padding: 40px 20px;
 }
 
+
 .menu-contenedor h2 {
-    color: #006400; /* verde oscuro */
+    color: #004080;
     margin-bottom: 30px;
     text-align: center;
 }
@@ -33,35 +33,35 @@ html, body {
 }
 
 .tarjeta {
-    background-color: #ffffe0; /* amarillo claro */
+    background-color: white;
     padding: 20px;
     border-radius: 10px;
     text-align: left;
-    box-shadow: 0 2px 8px rgba(0, 100, 0, 0.2); /* sombra verde */
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     text-decoration: none;
-    color: #003300; /* verde muy oscuro */
-    border: 2px solid #006400; /* borde verde oscuro */
+    color: #333;
 }
 
 .tarjeta:hover {
     transform: translateY(-5px);
-    box-shadow: 0 4px 12px rgba(0, 100, 0, 0.3); /* sombra verde más fuerte */
-    background-color: #ffffff; /* blanco al hacer hover */
-    color: #006400; /* texto verde */
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
 }
 
 .tarjeta h3 {
     margin-top: 0;
-    color: #006400; /* verde oscuro */
+    color: #004080;
 }
 
+
+
 footer {
-    background-color: #006400; /* verde oscuro */
-    color: #ffff00; /* amarillo */
+    background-color: #004080;
+    color: white;
     padding: 10px;
     text-align: center;
 }
+
 
 @media (max-width: 768px) {
     .nav-links {
